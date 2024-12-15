@@ -1,4 +1,4 @@
-# SWT Scrum: Hotel Booking System
+# Softwarearchitektur: Jodel-like Application
 
 ## Table of Contents
 
@@ -10,17 +10,17 @@
 
 ## Über das Projekt
 
-"The goal of this project is to implement a hotel booking system that 
-allows travelers to search, reserve, and book available rooms."
+A simple web-based Jodel application allowing users to share thoughts, hints, and observations through posts. 
+Connect with people nearby, comment on posts, and vote on comments to engage in local discussions.
 
 ---
 
 ## Used Technologies
-
-
+[![React][React]][React-url]  
+[![Vite][Vite]][Vite-url]  
 [![Spring Boot][Spring Boot]][Spring Boot-url]  
 [![PostgreSQL][PostgreSQL]][PostgreSQL-url]  
-[![JavaScript][JavaScript]][JavaScript-url]
+[![Docker][Docker]][Docker-url]  
 
 ---
 
@@ -28,9 +28,7 @@ allows travelers to search, reserve, and book available rooms."
 
 ### Requirements:
 
-- JDK 17 or higher
-- PostgreSQL Server 16 or higher
-- Maven (for building yourself)
+- Docker installed
 
 ### Schritte
 
@@ -38,38 +36,16 @@ allows travelers to search, reserve, and book available rooms."
 ```bash
 git clone https://github.com/kr1pt0n05/SWT-Scrum-Project.git
 ```
-   
-2. **Set up PostgreSQL Server**:
+
+2. **Build Application**:
 ```bash
-#Log into PostgreSQL:
-psql -U postgres
-
-#Create new user:
-CREATE USER hotel_root WITH PASSWORD '123456';
-
-#Create new database:
-CREATE DATABASE hotel;
-
-#Grant all privileges:
-GRANT ALL PRIVILEGES ON DATABASE hotel TO hotel_root;
-```
-   
-
-3. **Build the application or use provided build in /target directory**:
-```bash
-#Navigate to root directory
-cd "SWT-Scrum-Project/backend/booking"
-
-#Build Spring Boot Application
-mvn clean install
+mvn clean package -Pdocker
 ```
 
-
-4. **Run application**:
+3. **Run Application**:
 ```bash
-java -jar target/hotel-0.0.1-SNAPSHOT.jar
+docker compose up -d --build
 ```
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -79,6 +55,11 @@ java -jar target/hotel-0.0.1-SNAPSHOT.jar
 [PostgreSQL]: https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
 
-[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[React]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[React-url]: https://reactjs.org/
 
+[Docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]: https://www.docker.com/
+
+[Vite]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
