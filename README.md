@@ -8,10 +8,11 @@
 
 ---
 
-## Über das Projekt
+## About the Project
 
-A simple web-based Jodel application allowing users to share thoughts, hints, and observations through posts. 
-Connect with people nearby, comment on posts, and vote on comments to engage in local discussions.
+A simple web-based Jodel application allowing users to share thoughts, hints, and observations through posts.
+Users can like or dislike comments, vote on posts and comments, and write comments to participate in discussions.
+When creating posts, the user's coordinates are captured, and when retrieving posts, only posts within a 10 km radius are displayed.
 
 ---
 
@@ -34,7 +35,7 @@ Connect with people nearby, comment on posts, and vote on comments to engage in 
 
 1. **Clone Repository**:  
 ```bash
-git clone https://github.com/kr1pt0n05/SWT-Scrum-Project.git
+git clone https://github.com/kr1pt0n05/JodelClone_Public.git
 ```
 
 2. **Build Application**:
