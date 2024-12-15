@@ -1,0 +1,18 @@
+{
+    "name": "Post",
+    "city": "Stuttgart",
+    "elements": [
+    {"content": "Ich habe einen wirklich tollen Typen kennen gelernt, - aber sein Lörrest ist leider viel zu klein...", "vote_count": 43, "created": "2024-11-19T19:12:22.332238"},
+    {"content": "Mein Hund tut mir bei dem Wetter so leid, er versteht einfach nicht, warum er immer noch nicht sprechen kann.", "vote_count": 7, "created": "2024-11-18T10:20:22.332238"},
+    {"content": "Ich habe die besten Frösche in meiner Sammlung – leider sind sie alle zu faul, um für mich zu singen.", "vote_count": 15, "created": "2024-11-17T13:45:22.332238"},
+    {"content": "Es ist wirklich schwer, die perfekte Pizza zu finden. Die beste, die ich je hatte, war auf einem Bild in einem Katalog.", "vote_count": 23, "created": "2024-11-16T14:25:22.332238"},
+    {"content": "Warum gibt es eigentlich keine Superhelden, die nur um die Welt reisen, um günstig einkaufen zu gehen?", "vote_count": 30, "created": "2024-11-15T08:10:22.332238"},
+    {"content": "Ich habe mir ein neues Kissen gekauft, das so bequem ist, dass es mir den Schlaf raubt – Ironie des Lebens.", "vote_count": 12, "created": "2024-11-14T18:55:22.332238"},
+    {"content": "Mein Kühlschrank und ich haben ein Abkommen: Ich lasse ihm mehr Platz, wenn er mir endlich die Antwort auf das Universum gibt.", "vote_count": 5, "created": "2024-11-13T07:40:22.332238"},
+    {"content": "Ich habe beschlossen, mehr zu lesen. Aber der Haufen Wäsche neben meinem Bett hat andere Pläne.", "vote_count": 10, "created": "2024-11-12T21:30:22.332238"},
+    {"content": "Der einzige Weg, wie ich morgens aufstehe, ist, wenn mein Wecker beschließt, mir eine Ausrede zu geben.", "vote_count": 28, "created": "2024-11-11T22:50:22.332238"},
+    {"content": "Die beste Entscheidung, die ich je getroffen habe, war es, auf einem Spaziergang eine Schnecke zu überholen. Es fühlte sich großartig an.", "vote_count": 18, "created": "2024-11-10T17:00:22.332238"},
+    {"content": "Warum ist es so schwer, die richtige Socke zu finden? Sie verschwinden immer genau dann, wenn man sie am meisten braucht.", "vote_count": 22, "created": "2024-11-09T16:40:22.332238"},
+    {"content": "Ich dachte, ich hätte endlich das perfekte Mittagessen gefunden – bis mir mein Salat eine Nachricht hinterließ: 'Bist du sicher, dass du mich isst?'", "vote_count": 14, "created": "2024-11-08T13:15:22.332238"}
+    ]
+}

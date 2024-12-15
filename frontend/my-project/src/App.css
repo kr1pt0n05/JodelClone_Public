@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body_{
+  @apply flex min-h-screen flex-col items-center bg-gray-200;
+}
+
+.header_{
+    @apply sticky top-0 mb-3 flex w-full flex-col items-center bg-gray-200 pt-5 text-center;
+  }
+  
+  .city-name{
+    @apply mb-5 text-4xl font-semibold text-gray-800;
+  }
+  
+  .content-sorting-control{
+    @apply mb-5 flex flex-wrap justify-center rounded-2xl border-2 border-orange-500 bg-white;
+  }
+  
+  .content-sorting-control-button-left{
+    @apply rounded-l-lg px-4 py-2 text-lg text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white;
+  }
+
+  .content-sorting-control-button-left-clicked{
+    @apply rounded-l-lg px-4 py-2 text-lg text-white bg-orange-500;
+  }
+  
+  .content-sorting-control-button-mid{
+    @apply px-4 py-2 text-lg text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white border-x-2 border-orange-500;
+  }
+
+  .content-sorting-control-button-mid-clicked{
+    @apply px-4 py-2 text-lg text-white bg-orange-500 border-x-2 border-orange-500;
+  }
+  
+  .content-sorting-control-button-right{
+    @apply rounded-r-lg px-4 py-2 text-lg text-orange-500 transition-colors duration-300 hover:bg-orange-500 hover:text-white;
+  }
+
+  .content-sorting-control-button-right-clicked{
+    @apply rounded-r-lg px-4 py-2 text-lg text-white bg-orange-500 hover:text-white;
+  }
+  
+  .time-period-selector{
+    @apply w-full max-w-xl rounded-lg bg-white p-4 shadow;
+  }
+  
+  .time-period-selector-button-holder{
+    @apply flex flex-row flex-wrap gap-x-3 font-sans font-semibold text-black;
+  }
+  
+  .time-period-selector-button{
+    @apply flex-1 rounded border-2 bg-gray-100 px-10 py-2 hover:bg-slate-400;
+  }
+
+  .time-period-selector-button-clicked{
+    @apply flex-1 rounded border-2 bg-slate-500 px-10 py-2;
+  }
+  
+  .posts-wrapper{
+    @apply mb-5 flex max-w-xl w-full flex-col gap-y-3;
+  }
+  
+  .post{
+    @apply rounded-lg bg-white p-4 shadow;
+  }
+
+
+.vote-button{
+  @apply flex items-center;
+}
+
+.vote-button-clicked{
+  height: 110%;
+  width: 110%;
+}
+
+.vote-button-like{
+  @apply vote-button hover:text-blue-500 text-white;
+}
+
+.vote-button-dislike{
+  @apply vote-button hover:text-red-500 text-white;
+}
+
+.vote-button-liked{
+  @apply vote-button text-blue-700;
+}
+
+.vote-button-disliked{
+  @apply vote-button text-red-700;
+}
+
+.BiCommentDetailStyle{
+  @apply text-2xl hover:text-zinc-300;
+}
+
+
+.sticky-bottom{
+  @apply fixed bottom-0 left-1/2 transform -translate-x-1/2 z-50
+}
+
+.sticky-center {
+  @apply fixed top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50;
+}
+
+

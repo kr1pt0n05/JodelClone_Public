@@ -1,0 +1,85 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore IntelliJ specific files related to Keycloak configuration (if any)
+*.keycloak/
+
+# Spring Security & Keycloak related config files (not sensitive data)
+application.yml
+application.properties
+*.secret
+*.keycloak
+
+# Spring Data JPA - ignore generated schema and DB files if using embedded DB for dev
+*.h2.db
+*.h2.lock
+*.mv.db
+
+# Spring Boot DevTools (config, logs, or temporary files created by DevTools)
+spring-boot-devtools/
+*.log
+*.h2.db
+*.h2.lock
+
+# Ignore `.env` files (if used for environment variables or Docker)
+.env
+
+# Ignore Spring Boot auto-generated configuration files (depending on your IDE)
+.idea/workspace.xml
+.idea/.name
+
+# Ignore temporary files created during build or development
+/.idea/
+/*.iml
+/.vscode/
+
+# Ignore Vite/npm Project
+!**/glob-import/dir/node_modules
+.DS_Store
+.idea
+.pnpm-store
+*.cpuprofile
+*.local
+*.log
+/.vscode/
+/docs/.vitepress/cache
+/packages/vite/LICENSE
+dist
+dist-ssr
+explorations
+node_modules
+playground-temp
+temp
+TODOs.md
+.eslintcache
